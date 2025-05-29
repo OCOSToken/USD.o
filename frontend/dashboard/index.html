@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>USD.o Elite Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Goldman&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="gradient-bg">
+    <nav class="nav-bar">
+      <div class="brand">USD<span class="highlight">.o</span> Chain</div>
+      <button id="connectWallet">🔗 Connect Wallet</button>
+    </nav>
+
+    <section class="intro">
+      <h1>🚀 USD.o Chain</h1>
+      <p>The Future of Stablecoins — Elegant, Transparent, AI-Powered</p>
+    </section>
+
+    <div class="dashboard">
+      <div class="card glow">
+        <h2>💰 Balance</h2>
+        <p id="balance">0.00 USD.o</p>
+      </div>
+
+      <div class="card glow">
+        <h2>🌉 Bridge USD.o</h2>
+        <input type="text" id="bridgeAmount" placeholder="Enter amount"/>
+        <button onclick="bridgeUSD()">Bridge Now</button>
+      </div>
+
+      <div class="card glow">
+        <h2>🗳 DAO Governance</h2>
+        <button onclick="voteProposal()">Vote on Proposal</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 USD.o — Designed by OCOS</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
