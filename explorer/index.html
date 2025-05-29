@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>USD.o Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🔎 USD.o Chain Explorer</h1>
+    <button id="connect">Connect Wallet</button>
+
+    <div class="info">
+      <p><strong>Connected Account:</strong> <span id="account">-</span></p>
+      <p><strong>Current Block:</strong> <span id="blockNumber">-</span></p>
+      <p><strong>Your Balance (USD.o):</strong> <span id="balance">-</span></p>
+    </div>
+
+    <div class="txs">
+      <h2>Recent Transactions</h2>
+      <ul id="txList">
+        <li>Loading latest transactions...</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
