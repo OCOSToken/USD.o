@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>USD.o Staking Panel</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📈 USD.o Staking Panel</h1>
+    <button id="connectWallet">🔗 Connect Wallet</button>
+
+    <div class="staking-card">
+      <h2>Stake Your USD.o</h2>
+      <input type="text" id="stakeAmount" placeholder="Amount to stake"/>
+      <button onclick="stakeTokens()">Stake</button>
+    </div>
+
+    <div class="staking-info">
+      <h3>⛓ Staking Info</h3>
+      <p><strong>Your Staked:</strong> <span id="staked">0</span> USD.o</p>
+      <p><strong>Your Rewards:</strong> <span id="rewards">0</span> USD.o</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
