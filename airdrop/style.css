@@ -1,0 +1,46 @@
+body {
+  background: #0c0c1e;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  background: #1c1c3c;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,255,255,0.2);
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background: #00f0ff;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+button[disabled] {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
