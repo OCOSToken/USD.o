@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USD.o Airdrop Claim</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎁 USD.o Airdrop Claim</h1>
+    <button id="connectWallet">🔗 Connect Wallet</button>
+
+    <div class="airdrop-info">
+      <p><strong>Wallet:</strong> <span id="wallet">-</span></p>
+      <p><strong>Eligibility:</strong> <span id="eligibility">Checking...</span></p>
+    </div>
+
+    <button id="claimBtn" disabled onclick="claimTokens()">✅ Claim Airdrop</button>
+
+    <div id="message" class="message"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
