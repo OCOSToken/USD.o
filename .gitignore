@@ -1,0 +1,70 @@
+# -------------------------
+# Solidity / Hardhat
+# -------------------------
+artifacts/
+cache/
+typechain/
+coverage/
+.env
+.env.local
+.env.production
+.env.development
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# -------------------------
+# Rust
+# -------------------------
+/target/
+/Cargo.lock
+
+# -------------------------
+# Node.js / Frontend (React, Vue, Next.js)
+# -------------------------
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# Docker
+# -------------------------
+*.log
+*.pid
+docker-compose.override.yml
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# OS generated files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Secrets / Wallets
+# -------------------------
+*.pem
+*.key
+*.crt
+keystore/
+wallet.json
+secret.json
+
+# -------------------------
+# Documentation / Whitepaper
+# -------------------------
+whitepaper/*.pdf
+whitepaper/*.docx
+whitepaper/*.zip
